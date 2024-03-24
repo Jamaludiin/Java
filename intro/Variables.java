@@ -29,5 +29,22 @@ public class Variables {
         //var_int = 33; // refuses
     
         // Declare Many Variables
+
+        // traditional 
+        int var_int1 = 45;
+        int var_int2 = 678;
+        int var_int3 = 77;
+        System.out.println(var_int1 + var_int2 + var_int3); // add all
+
+        // you can do in like this
+        int var_int4 = 246, var_int5 = 421, var_int6 = 345; 
+        System.out.println(var_int4 + " " + var_int5 + " " + var_int6); // seperated by space
+
+        // assign One Value to Multiple Variables
+        int var_int7, var_int8, var_int9; 
+        var_int7 = var_int8 = var_int9 = 45;
+        System.out.println(var_int7 + " " + var_int8 + " " + var_int9);
+
+
     }
 }
