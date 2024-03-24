@@ -1,0 +1,32 @@
+intall the JDK
+
+How to know were the java is installed in your pc 
+write this on the terminal
+/usr/libexec/java_home -V
+
+my version java
+22 (arm64) "Oracle Corporation"
+
+How to know the home page of my macos
+write this on the terminal 
+pwd
+
+This code is how to know the location of the .zshrc 
+jamalabdullahi@JM-MacBook-Air ~ % ls -al
+
+How to create the .zshrc if not present in your macos
+touch .zshrc
+
+Open the .zshrc
+go to terminal and write
+open .zshrc
+
+After that use this command in the terminal or close the terminal as alternative
+ source .zshrc
+
+To see the location of the java use this command
+ echo $JAVA_HOME
+
+Now you can check the java version 
+java -version
+
