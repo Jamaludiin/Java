@@ -46,5 +46,24 @@ public class Variables {
         System.out.println(var_int7 + " " + var_int8 + " " + var_int9);
 
 
+        // Identifiers name
+        char varAge = 65;
+        System.out.println(varAge);
+
+
+        // my name printed 
+        char myVar1 = 74, myVar2 = 65, myVar3 = 77, myVar4 = 65, myVar5 = 76;
+        System.out.println(myVar1);
+        System.out.println(myVar2);
+        System.out.println(myVar3);
+        System.out.println(myVar4);
+        System.out.println(myVar5);
+
+        System.out.print(myVar1);
+        System.out.print(myVar2);
+        System.out.print(myVar3);
+        System.out.print(myVar4);
+        System.out.print(myVar5);
+        
     }
 }
