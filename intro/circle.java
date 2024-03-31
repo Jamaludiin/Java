@@ -18,11 +18,11 @@ public class circle {
 public static void main(String[] args) {
 
     // Create a Circle object with default radius
-    Circle circle1 = new Circle();
+    Circle circle = new Circle();
         
     // Access and print the radius and area of circle1
-    System.out.println("Circle 1 - Radius: " + circle1.radius);
-    System.out.println("Circle 1 - Area: " + circle1.getArea());
+    System.out.println("Circle 1 - Radius: " + circle.radius);
+    System.out.println("Circle 1 - Area: " + circle.getArea());
 
 }
 
