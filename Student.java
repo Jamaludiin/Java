@@ -15,6 +15,20 @@ public class Student {
   
     char gender;             // Declaring a primitive data field named "gender" of type char
                              // This field stores a single character
-                             // It has a default value of '\u0000' (which represents the null character) when not explicitly initialized
-  }
+                             // It has a default value of '\u0000' (which represents the null character) 
+                               //when not explicitly initialized
+  
+  
+
+    public static void main(String[] args) {
+
+
+    Student student = new Student();
+    System.out.println("name? " + student.name); 
+    System.out.println("age? " + student.age); 
+    System.out.println("isScienceMajor? " + student.isScienceMajor); 
+    System.out.println("gender? " + student.gender); 
+
+    }
+}
   
