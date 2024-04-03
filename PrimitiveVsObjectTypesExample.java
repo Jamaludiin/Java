@@ -4,6 +4,7 @@ public class PrimitiveVsObjectTypesExample {
     
 
     public static void main(String[] args) {
+
         // Primitive Data Types
         int intValue = 5;
         double doubleValue = 3.14;
@@ -12,6 +13,8 @@ public class PrimitiveVsObjectTypesExample {
 
         // Object Types
         Circle circle = new Circle(5.0); // Object of the Circle class
+        Circle circle2 = new Circle(34.0); // Object of the Circle class
+
         String str = "Hello"; // Object of the String class
 
         // Displaying values
@@ -24,6 +27,15 @@ public class PrimitiveVsObjectTypesExample {
         System.out.println("\nObject Types:");
         System.out.println("Circle radius: " + circle.getArea());
         System.out.println("String value: " + str);
+
+        System.out.println("circle value: " + circle.radius);
+        System.out.println("circle2 value: " + circle2.radius);
+
+        //
+        circle = circle2;
+        System.out.println("circle value: " + circle.radius);
+        System.out.println("circle2 value: " + circle2.radius);
+
     }
 }
 
