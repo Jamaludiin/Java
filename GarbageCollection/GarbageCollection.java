@@ -1,4 +1,4 @@
-package Java;
+package Java.GarbageCollection;
 
 public class GarbageCollection {
 

@@ -2,21 +2,23 @@ package Java;
 
 public class StaticConstantMethod {
     
-
     public static void main(String[] args) {
-
+        Circles circle = new Circles(16);
+        System.out.println(circle.radius);
+        circle.calculateArea();
+        Circles.getNumberOfCircles();
+    }
 }
-}
 
- class Circle {
+class Circles {
     // Static variable
-    static int numberOfCircles = 0; // Shared by all instances, counts the number of circles
+    static int numberOfCircles = 10; // Shared by all instances, counts the number of circles
     
     // Instance variables
     double radius; // Represents the radius of the circle
     
     // Constructor
-    public Circle(double radius) {
+    public Circles(double radius) {
         this.radius = radius;
         numberOfCircles++; // Incrementing the count of circles upon creation of each instance
     }
