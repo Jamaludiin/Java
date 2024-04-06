@@ -13,7 +13,6 @@ public class IfElse {
         Not Equal to: a != b
 
 
-
         if (condition) {
             // block of code to be executed if the condition is true
         }
