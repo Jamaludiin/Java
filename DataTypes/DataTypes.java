@@ -9,6 +9,8 @@ public class DataTypes {
         boolean myBool = true;       // Boolean
         String myText = "Hello";     // String
 
+        char myLetter1 = 5667;   
+
         
     }
     

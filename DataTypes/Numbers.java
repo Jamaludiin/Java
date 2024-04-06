@@ -24,8 +24,34 @@ public class Numbers {
         // This is used when int is not large enough to store the value. Note that you should end the value with an "L":
         long myNum3 = 15000000000L;
         System.out.println(myNum3);
-        
 
+        long myNum3_1 = (long) 673333359; //numeric literals without any suffix are treated as int by default.
+        System.out.println(myNum3_1);
+
+        long myNum4 = 6; // this is also long
+        System.out.println(myNum4);
+
+
+        // You should use a floating point type whenever you need a number with a decimal, such as 9.99 or 3.14515.
+        // The float and double data types can store fractional numbers. 
+        // Note that you should end the value with an "f" for floats and "d" for doubles:
+        float myNum6 = 5.75f;
+        System.out.println(myNum6);
+
+        float myNum7 = (float) 5.75; // this also correct becos float are double by default to make it float you must cast
+        System.out.println(myNum7);
+
+
+        double myNum8 = 19.99d;
+        System.out.println(myNum8);
+
+
+        // Scientific Numbers
+        // A floating point number can also be a scientific number with an "e" to indicate the power of 10:
+        float f1 = 35e3f;
+        double d1 = 12E4d;
+        System.out.println(f1);
+        System.out.println(d1);
     }
 }
 
