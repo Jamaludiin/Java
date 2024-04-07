@@ -22,6 +22,8 @@ public class MultidimensionalArrays {
         System.out.println();
           }
         
+
+          
     }
     
 }
