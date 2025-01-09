@@ -1,4 +1,4 @@
-package Java.Variables;
+package Variables;
 
 public class Identifiers {
 

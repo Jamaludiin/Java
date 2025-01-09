@@ -1,7 +1,5 @@
 package Java.JavaClasses.Inheritance;
 
-
-
 // Inheritance (Subclass and Superclass)
 /*
     subclass (child) - the class that inherits from another class
